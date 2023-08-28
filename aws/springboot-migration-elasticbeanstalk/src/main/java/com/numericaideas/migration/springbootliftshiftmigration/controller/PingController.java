@@ -15,7 +15,7 @@ public class PingController {
     @GetMapping
     public String ping() {
         logger.debug("Ping action called");
-        return "Pong >>> It works!";
+        return "[DEMO] Pong >>> It works!";
     }
 
 }
